@@ -21,7 +21,7 @@ export default {
   },
   methods: {
     getUser() {
-      const url = "https://randomuser.me/api/?results=1";
+      const url = "https://randomuser.me/api/?results=20";
       axios
         .get(url)
         .then((response) => {
